@@ -60,12 +60,12 @@ document.addEventListener('DOMContentLoaded',function(){
     var tabDate6= document.querySelector('.tabloids-table :nth-child(6) span')
     var tabDate1to4=[tabDate1,tabDate2,tabDate3,tabDate4,tabDate5,tabDate6];
     
-    var content5=document.querySelector('.tabloids-table :nth-child(5) .tabloid-title div')
-    var content6=document.querySelector('.tabloids-table :nth-child(6) .tabloid-title div')
-    var content7=document.querySelector('.tabloids-table :nth-child(7) .tabloid-title div')
-    var content8=document.querySelector('.tabloids-table :nth-child(8) .tabloid-title div')
-    var content9=document.querySelector('.tabloids-table :nth-child(9) .tabloid-title div')
-    var content10=document.querySelector('.tabloids-table :nth-child(10) .tabloid-title div')
+    var content5=document.querySelector('.tabloids-table :nth-child(1) .tabloid-title div')
+    var content6=document.querySelector('.tabloids-table :nth-child(2) .tabloid-title div')
+    var content7=document.querySelector('.tabloids-table :nth-child(3) .tabloid-title div')
+    var content8=document.querySelector('.tabloids-table :nth-child(4) .tabloid-title div')
+    var content9=document.querySelector('.tabloids-table :nth-child(5) .tabloid-title div')
+    var content10=document.querySelector('.tabloids-table :nth-child(6) .tabloid-title div')
     var content5to10=[content5, content6, content7, content8, content9, content10];
 
     fetch('https://coding-week-2024-api.onrender.com/api/data')
